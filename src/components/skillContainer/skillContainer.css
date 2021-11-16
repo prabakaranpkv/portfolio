@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap");
+
+.skillContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px 0;
+}
+
+.skillContainer_text {
+  color: white;
+  flex: 0.6;
+  text-align: left;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.skillContainer_text > h2 {
+  font-size: 30px;
+}
+
+.skillContainer_image {
+  flex: 0.4;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.skillContainer_image > img {
+  width: 600px;
+  border-radius: 3px;
+  object-fit: contain;
+}
+
+.skillContainer_skillset > h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+}
+.skillContainer_icon {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.skillContainer_slider > .MuiLinearProgress-colorPrimary {
+  background-color: rgb(88, 88, 88);
+}
+
+.skillContainer_slider1 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(33, 181, 240);
+}
+
+.skillContainer_slider2 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(184, 240, 80);
+}
+
+.skillContainer_slider3 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(229, 240, 233);
+}
+
+.skillContainer_slider4 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(46, 212, 13);
+}
